@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"stockmanager"},{"l":"stockmanager.exception"},{"l":"stockmanager.interfaces"},{"l":"stockmanager.model"}]
