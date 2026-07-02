@@ -1,8 +1,8 @@
 package stockmanager.exception;
 
 /**
- * Exceção lançada quando um produto buscado não é encontrado no sistema.
- * Pode ser utilizada em buscas por ID, código ou qualquer outro identificador.
+ * Excecao lancada quando um produto buscado nao e encontrado no sistema.
+ * Pode ser utilizada em buscas por ID, codigo ou qualquer outro identificador.
  *
  * @author Equipe StockManager
  * @version 1.0
@@ -12,19 +12,19 @@ public class ProdutoNaoEncontradoException extends RuntimeException {
     private final String identificador;
 
     /**
-     * Cria uma nova instância informando o identificador que originou a falha.
+     * Cria uma nova instancia informando o identificador que originou a falha.
      *
-     * @param identificador código, ID ou outro dado usado na busca que não retornou resultado
+     * @param identificador codigo, ID ou outro dado usado na busca que nao retornou resultado
      */
     public ProdutoNaoEncontradoException(String identificador) {
-        super("Produto não encontrado: " + identificador);
+        super("Produto nao encontrado: " + identificador);
         this.identificador = identificador;
     }
 
     /**
-     * Retorna o identificador utilizado na busca que originou a exceção.
+     * Retorna o identificador utilizado na busca que originou a excecao.
      *
-     * @return String com o identificador do produto não encontrado
+     * @return String com o identificador do produto nao encontrado
      */
     public String getIdentificador() {
         return identificador;
